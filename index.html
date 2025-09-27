@@ -7,23 +7,25 @@
   <style>
     body {
       margin: 0;
-      min-height: 300vh; /* довга сторінка */
-      background: url("paint-bg.png") no-repeat center top;
-      background-size: cover;
+      width: 1348px;   /* ширина картинки */
+      height: 1714px;  /* висота картинки */
+      background: url("background.png") no-repeat top left;
+      background-size: 1348px 1714px; /* щоб фон точно підходив */
       font-family: Arial, sans-serif;
+      position: relative; /* для позиціонування силки */
     }
 
     a {
-      color: blue;          /* синій текст */
-      text-decoration: none; /* без підкреслення */
+      color: blue;
+      text-decoration: none;
       font-size: 2rem;
-      position: absolute;    /* дозволяє ставити де захочеш */
-      top: 200px;            /* відступ зверху */
-      left: 100px;           /* відступ зліва */
+      position: absolute;
+      top: 200px; /* твоє місце по вертикалі */
+      left: 100px; /* твоє місце по горизонталі */
     }
 
     a:hover {
-      text-decoration: underline; /* підкреслення при наведенні */
+      text-decoration: underline;
     }
   </style>
 </head>
