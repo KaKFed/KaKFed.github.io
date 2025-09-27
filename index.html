@@ -8,24 +8,24 @@
     body {
       margin: 0;
       height: 100vh;
-      background: linear-gradient(135deg, #ff00ff, #00ffff, #ffff00);
+      background: url("backgroung.png") no-repeat center center;
+      background-size: cover;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: "Courier New", monospace;
+      font-family: Arial, sans-serif;
     }
     a {
-      font-size: 3rem;
+      display: inline-block;
+      background: black;
       color: white;
       text-decoration: none;
-      background: rgba(0,0,0,0.5);
-      padding: 20px 40px;
-      border-radius: 20px;
-      transition: 0.3s;
+      font-size: 2rem;
+      padding: 40px 60px;
+      border-radius: 4px; /* якщо не треба округлення — можна забрати */
     }
     a:hover {
-      background: rgba(255,255,255,0.3);
-      color: black;
+      background: #333;
     }
   </style>
 </head>
